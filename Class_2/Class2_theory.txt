@@ -1,0 +1,37 @@
+1.Pass by value 
+  -->Actual parameter expressions that are passed to a method are evaluated and a value is derived. 
+     Then this value is stored in a location and then it becomes the formal parameter to the invoked method. 
+  
+  Pass by reference
+  -->In pass by reference, the formal parameter is just an alias to the actual parameter. It refers to the actual argument.
+     Any changes done to the formal argument will reflect in actual argument and vice versa.
+
+2.What are Immutable objects:
+  -->An immutable object (unchangeable object) is an object whose state cannot be modified after it is created. 
+     This is in contrast to a mutable object (changeable object) , which can be modified after it is created.
+ How to create Immutable Object: 
+ -->To create a class immutable, you need to follow following steps: Declare the class as final so it can't be extended. 
+    Make all fields private so that direct access is not allowed. 
+    Don't provide setter methods for variables Make all mutable fields final so that it's value can be assigned only once.
+ Benefits of immutable objects.
+-->1) Immutable objects are by default thread safe, can be shared without synchronization in concurrent environment.
+   2) Immutable object simplifies development, because its easier to share between multiple threads without external synchronization.
+
+   3) Immutable object boost performance of Java application by reducing synchronization in code.
+
+   4) Another important benefit of Immutable objects is reusability, you can cache Immutable object and reuse them, 
+      much like String literals and Integers.
+      You can use static factory methods to provide methods like valueOf(), which can return an existing Immutable object from cache, 
+      instead of creating a new one.
+
+
+3.Access Levels
+  Modifier        Class   Package Subclass    World
+  public            Y       Y       Y          Y
+  protected         Y       Y       Y          N
+  (Default)         Y       Y       N          N
+  private           Y       N       N          N
+
+4.Getters and setters encapsulate the fields of a class by making them accessible only through 
+  its public methods and keep the values themselves private. ... 
+  Getter and setter method are used to get and set the value of x which is the way to achive encapsulation

@@ -1,0 +1,6 @@
+2. We need break statement in switch because IF we dont use the break statement it is going to execute all the case after the particular
+   statement that is been selected. so thats the reason we need to add break after every case statement to terminate the execution.
+
+3. With Continue,that leaves the current iteration and executes with the next value in the loop. 
+   where as break statement will terminate the execution of statement to which it is in. 
+   

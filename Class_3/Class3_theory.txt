@@ -1,0 +1,30 @@
+1.Encapsulation: Wrapping the data (variables) and code acting on the data (methods) together as a single unit.
+
+2.Inheritance: In which one object acquires all the properties and behaviors of parent object. 
+               The idea behind inheritance in java is that you can create new classes that are built upon existing classes.
+
+3.Polymorphism :Polymorphism is the ability of an object to take on many forms. 
+                The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+                Overloading: If two or more method in a class have same name but different parameters, it is known as method overloading.
+		 	     Method overloading is one of the ways through which java supports polymorphism. 
+			     Method overloading can be done by changing number of arguments or by changing the data type of arguments.
+                Overriding:  The ability of a subclass to override a method allows a class to inherit from a superclass
+                             whose behavior is "close enough" and then to modify behavior as needed. 
+                             The overriding method has the same name, number and type of parameters, and return type as the method that it overrides.
+
+
+4.Abstraction: Abstraction is the process of abstraction in Java is used to hide certain details and only show the essential features of the object.
+               In other words, it deals with the outside view of an object (interface).
+		-- interfaces
+		-- implemented
+		-- we can implement multiple interfaces
+		-- you can only have method definition
+		-- public static final variables
+		-- if we implement an interface, we are forced to have implement all the methods in implementing class.
+
+	        -- Abstract classes
+		-- extended
+		-- you can extend mutliple classes
+		-- instance varaiables
+		-- you can have implemnted and abstarct methods
+		-- if we extend an abstract class, we are forced to have implement all the abstarct methods in sub class.
